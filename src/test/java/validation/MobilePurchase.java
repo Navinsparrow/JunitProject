@@ -71,7 +71,7 @@ public class MobilePurchase {
 		HSSFWorkbook w =new HSSFWorkbook ();
 		HSSFSheet s= w.createSheet("sparrow");
 		String phonename = phone.getText();
-		 HSSFRow row = s.createRow(1);
+		 HSSFRow row = s.createRow(0);
 		 HSSFCell c = row.createCell(0);
     	 c.setCellValue(phonename);
     	 
